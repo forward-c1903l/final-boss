@@ -1,0 +1,28 @@
+.team {
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+}
+
+.team .team__item {
+
+}
+
+.team .team__item .team__member {
+	
+}
+
+.team .team__item .team__member h1 {
+	
+}
+
+.team .team__item .team__name {
+	border: 1px solid grey;
+	padding: 20px 10px;
+}
+
+.team .team__item .team__name a {
+	color: blue;
+	text-decoration: none;
+}
+
+
