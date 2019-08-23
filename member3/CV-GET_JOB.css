@@ -1,0 +1,192 @@
+
+
+.Container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 15px;
+}
+.grid{
+    text-align: center;
+    background-color:ghostwhite;
+    font-size: 3rem;
+    padding: 25px;
+}
+
+
+.Sidebar{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 80;
+    background-color: #183c5e;
+
+}
+        /*#IMG{
+            border-radius: 60%;
+        }*/
+        .Skill{
+            text-align: left;
+            cursor: pointer;
+            color:white;
+        }
+        .Skill ul{
+            text-decoration: none;
+            font-size: 25px;
+            list-style: none;
+            color:white;
+        }
+        .Skill ul li a:hover{
+         background:greenyellow;
+
+        }
+
+        .Skill button{
+            width: 13rem;
+            height: 15px;
+            text-align: left;
+            border-radius: 40%;
+            background-color: #172031;
+        }
+        .Skill-ADD button{
+            width: 10rem;
+            height: 16px;
+            text-align: left;
+            border-radius: 33%;
+            position: relative;
+            bottom: 297px;
+            left: -19px;
+            background-color: #fcfdff;
+
+         }
+            #b1{
+                width: 13rem;
+                height: 15px;
+                text-align: left;
+                border-radius: 40%;
+                position: relative;
+                bottom: 299px;
+                left: 3px;
+                background-color: #fcfdff;
+
+
+            }
+                #b5{
+                  width: 7rem;
+                  height: 15px;
+                  text-align: left;
+                  border-radius: 40%;
+                  position: relative;
+                  bottom: 295px;
+                  left: -43px;
+                  background-color: #fcfdff;
+
+              }
+             .font-Awesome{
+                 font-size: 20px;
+                 color: white;
+                 text-align: left;
+                 position: relative;
+                 top:40%;
+                 padding: 6px;
+
+             }
+             .font-Awesome span{
+                 cursor: pointer;
+                 font-size: 20px;
+
+
+             }
+            .font-Awesome span:hover{
+               font-size: 23px;
+            }
+
+
+
+
+
+.Content{
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 70;
+    background-color: #fefff5;
+
+}
+        .Name {
+            text-align: left;
+            color: #1f4164;
+            text-decoration-color: aqua;
+            cursor: pointer;
+            border-bottom: 4px solid black ;
+            }
+        #F-E{
+            font-size: 32px;
+            text-decoration: underline;
+            position: relative;
+            top: -22px;
+            color: #1b191a;
+
+            }
+        .PERSONAL-INFORMATION {
+            cursor: pointer;
+            font-size: 33px;
+            position: relative;
+            top: 14px;
+            border-radius: 23%;
+            background-color: #113356;
+            color: #f3fbff;
+
+            }
+
+                #p1{
+                    font-size: 31px;
+                }
+         .Content button{
+             font-size: 33px;
+
+         }
+        .Content button:hover{
+            font-size: 50px;
+        }
+
+
+.EDUCATION{
+             cursor: pointer;
+             font-size: 33px;
+             position: relative;
+             top: 16px;
+             border-radius: 23%;
+            background-color: #113356;
+            color: #f3fbff;
+
+            }
+            .WORK-EXPERIENCE{
+               cursor: pointer;
+               font-size: 33px;
+               position: relative;
+               top: 100px;
+               border-radius: 23%;
+                background-color: #113356;
+                color: #f3fbff;
+
+                }
+
+
+        .TABLE1{
+                position: relative;
+                top: 54px;
+                font-size: 30px;
+                position: relative;
+                left: 117px;
+            }
+        .TABLE2{
+                position: relative;
+                top: 154px;
+                font-size: 30px;
+                position: relative;
+                left: 22px;
+                }
+
+
+
