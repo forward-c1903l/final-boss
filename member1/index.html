@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Skeleton of website</title>
+    <link rel=stylesheet href="css/css.css" >
+      <script
+          src="https://code.jquery.com/jquery-3.4.1.js"
+          integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+          crossorigin="anonymous">
+      </script>
+</head>
+<body>
+
+  <iframe src="silence.mp3" allow="autoplay" id="audio" style="display:none" type='audio/mp3'> </iframe>
+  <audio id="player" autoplay loop>
+  <source src="com.mp3" type="audio/mp3">
+  </audio>
+
+<!--Phần #header-->
+<section  id="container">
+  <body style="background: url(Communist_haiku.png)">
+ <section id="head" >
+  <div class="logo" >
+    <img src="img123.jpg" alt="avatar"  width="100%" >
+  </div>
+  <div  class="banner">
+    <h1><b> Lê Nam Trân</b></h1>
+    <p> Vì Tổ quốc xã hội chủ nghĩa. Vì lý tưởng của Bác Hồ vĩ đại: Sẵn sàng!  </p>
+  </div>
+ </section>
+  <!--Kết thúc #header-->
+  <!--Phần navigation bar-->
+  <section id="navbar">
+  <div class="list" >
+    <ul>
+      <li><a href="#wrapper1">Thông tin</a></li>
+      <li><a href="#wrapper2">Học Vấn</a></li>
+      <li><a href="#wrapper3">Mục tiêu nghề nghiệp</a></li>
+      <li><a href="#wrapper4">Kĩ năng</a></li>
+      <li><a href="#contact">Liên hệ</a></li>
+    </ul>
+  </div>
+  </section>
+  <!--Kết thúc navigation bar-->
+
+
+  <!--Phần nội dung-->
+<section id="wrap">
+  <div id="wrapper1">
+    <div class="content1"><h1>Thông tin</h1></div>
+    <div class="split">
+    <div class="info1">
+      <p> Ngày sinh: 13/05/1996  <br/>  Giới tính: Nam     <br/>   Email: lenamtran1305@gmail.com<br/></div>
+    <div class="info12" >
+    <ul>
+      <li>Là một người năng động, hoạt bát, vui tính, thân thiện với mọi người</li>
+      <li>Thích đọc sách, nghe nhạc, quan tâm tới tình hình kinh tế, chính trị, xã hội của quốc gia cũng như trên thế giới</li>
+      <li>ham học hỏi và trau dồi kiến thức, kinh nghiệm cho bản thân </li>
+      <li>Có ý chí phấn đấu trong sự nghiệp và cuộc sống, luôn đề ra mục tiêu cụ thể để phát triển bản thân, sống và làm việc có trách nhiệm</li>
+      <li>Đôi khi hơi nóng nảy và thiếu sự lạc quan, tuy nhiên vẫn đang cố gắng khắc phục các nhược điểm của bản thân để hoàn thiện hơn.  </li>
+    </ul>
+    </div>
+    </div>
+  </div>
+
+
+  <div id="wrapper2">
+    <div class="content2"><h1>Học vấn</h1></div>
+    <div class="info2">
+      <p>Đại học Tôn Đức Thắng<br/>Chuyên ngành: Du lịch và quản trị lữ hành<br/>
+        Bằng cấp: Cử nhân đại học<br/>Loại tốt nghiệp: Giỏi <br/>
+      </p>
+    </div>
+  </div>
+
+
+  <div id="wrapper3">
+    <div class="content3"><h1>Mục tiêu nghề nghiệp</h1></div>
+    <div class="info3">
+      <p> Mong muốn học hỏi và phát triển ở môi trường làm việc chuyên nghiệp, năng động. <br/>
+        Áp dụng được kinh nghiệm và hiểu biết của bản thân để trở thành một nhân viên xuất sắc, mang lại nhiều giá trị cho công ty.<br/>
+        Có cơ hội thăng tiến cao, thành  công trong công việc. <br/> </p>
+    </div>
+  </div>
+
+  <div id="wrapper4">
+    <div class="content4"><h1>Kỹ năng</h1>
+    </div>
+    <div class="info4">
+      <p>Giao tiếp: 4/5 .<br/>
+        Tư duy phản biện: 4/5.<br/>
+        Photoshop: 4/5.<br/>
+        Tiếng Anh: 4/5 .<br/>
+      </p>
+    </div>
+  </div>
+</section>
+
+
+  <!--Phần chân trang-->
+  <div id="contact">
+    <h2> Liên hệ </h2>
+    <p>
+     Số điện thoại: 090 643 5180<br/>
+      Email: lenamtran1305@gmail.com  <br/>
+    </p>
+  </div>
+  <!--Kết thúc chân trang-->
+</section>
+
+  <script>
+  let fullHeight = $(document).height();
+  let body = $('body');
+  $(window).scroll(function(){
+    if($(window).scrollTop() >= fullHeight/3){
+      $(body).css('background-image','url(./lenin-lenin.jpg)');
+    }
+    else if($(window).scrollTop() <= fullHeight/4){
+      $(body).css('background-image','url(./Communist_haiku.png)');
+    }
+  })
+</script>
+
+</body>
+
+</html>
